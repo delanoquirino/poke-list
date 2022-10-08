@@ -4,7 +4,7 @@ import Image from "next/image";
 //styled
 import * as S from "./styles";
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <S.Nav>
       <S.Logo>
@@ -24,11 +24,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/sobre">
-            <a>Sobre</a>
+          <Link href="/about">
+            <a>About</a>
           </Link>
         </li>
       </S.LinkItems>
     </S.Nav>
   );
-}
+};

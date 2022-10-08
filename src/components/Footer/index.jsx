@@ -1,7 +1,7 @@
 //styled
 import * as S from "./styles";
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <S.Footer>
       <p>
@@ -9,4 +9,4 @@ export default function Footer() {
       </p>
     </S.Footer>
   );
-}
+};
