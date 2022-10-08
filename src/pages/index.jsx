@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+//components
+import { Pokemon } from "../components/DisplayPokemon";
+
 //styled
 import * as S from "../styles/pages/home";
 
@@ -41,10 +44,10 @@ export default function Home() {
       <S.Container>
         <h1>Home</h1>
         <p>
-          {pokemon?.map((val, i) => {
-            console.log("test");
-            return <p key={i}>{val.name}</p>;
-          })}
+          {pokemon?.map((val, idx) => (
+            //console.log("test");
+            <Pokemon key={idx} thisPokemon={val} />
+          ))}
         </p>
       </S.Container>
     </>
