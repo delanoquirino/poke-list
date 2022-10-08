@@ -1,9 +1,12 @@
+//styled
+import * as S from "./styles";
+
 export default function Footer() {
   return (
-    <footer>
+    <S.Footer>
       <p>
         <span>PokeNext</span> &copy; 2021
       </p>
-    </footer>
+    </S.Footer>
   );
 }
