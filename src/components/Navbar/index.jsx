@@ -24,8 +24,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>About</a>
+          <Link href="/sobre">
+            <a>Sobre</a>
           </Link>
         </li>
       </S.LinkItems>

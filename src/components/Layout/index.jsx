@@ -1,6 +1,6 @@
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
-
+//components
+import { Navbar } from "../Navbar";
+import { Footer } from "../Footer";
 import Head from "next/head";
 
 //styled

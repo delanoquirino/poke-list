@@ -1,5 +1,5 @@
 //component
-import Layout from "../components/Layout/Layout";
+import Layout from "../components/Layout";
 
 import GlobalStyle from "../styles/globals";
 
