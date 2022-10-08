@@ -32,7 +32,7 @@ export const Pokemon = ({ thisPokemon }) => {
         src={onePokemon.sprites.front_default}
         width="30"
         height="30"
-        alt="pokebola"
+        alt="pokemon"
       />
     </div>
   );
