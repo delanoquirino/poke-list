@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Pokemon = ({ thisPokemon }) => {
   const [onePokemon, setOnePokemon] = useState({
     name: "",
-    srpites: {
+    sprites: {
       front_default: "",
     },
   });
