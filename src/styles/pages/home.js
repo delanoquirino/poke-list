@@ -1,15 +1,30 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  text-align: center;
+export const Container = styled.div``;
+
+export const TiltleContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
   h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    color: var(--red-color);
+    text-align: center;
+    font-size: 3rem;
+    margin-right: 0.5rem;
   }
 
-  p {
-    max-width: 500px;
-    margin: 0 auto 1.5rem;
-    line-height: 1.5rem;
+  span {
+    color: var(--blue-color);
   }
+`;
+
+export const PokemonContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  list-style: none;
 `;
