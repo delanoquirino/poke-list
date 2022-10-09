@@ -7,6 +7,7 @@ export const Nav = styled.nav`
   padding: 1rem 2rem;
   margin-bottom: 2rem;
   background-color: var(--yellow-color);
+  border-bottom: 1px solid var(--red-color);
 `;
 
 export const Logo = styled.div`
@@ -30,6 +31,6 @@ export const LinkItems = styled.ul`
   }
 
   a:hover {
-    border-color: var(--blue-color);
+    border-color: var(--red-color);
   }
 `;

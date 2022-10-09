@@ -15,7 +15,8 @@ export const Card = styled.div`
 
   p {
     margin: 1rem 0;
-    background-color: var(--blue-color);
+    background-color: var(--red-color);
+    color: #fff;
     border-radius: 5px;
     padding: 5px;
     display: flex;
