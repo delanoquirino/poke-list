@@ -27,4 +27,9 @@ export const PokemonContainer = styled.div`
   max-width: 1100px;
   margin: 0 auto;
   list-style: none;
+
+  @media (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;

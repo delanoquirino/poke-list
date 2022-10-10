@@ -7,6 +7,7 @@ export const Card = styled.div`
   flex-direction: column;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
+
   width: 23%;
   border-radius: 1rem;
   border: 2px solid var(--blue-color);
@@ -42,5 +43,14 @@ export const Card = styled.div`
   a:hover {
     background-color: var(--red-color);
     color: #fff;
+  }
+
+  @media (max-width: 950px) {
+    margin: 2rem 1rem;
+  }
+
+  @media (max-width: 550px) {
+    width: 50%;
+    margin-bottom: 0.1rem;
   }
 `;

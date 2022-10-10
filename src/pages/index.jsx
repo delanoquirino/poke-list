@@ -32,7 +32,7 @@ export default function Home({ pokemons }) {
       <S.Container>
         <S.TiltleContainer>
           <h1>
-            Poke<span>Next</span>
+            Poke<span>List</span>
           </h1>
           <div>
             <Image

@@ -8,10 +8,10 @@ export default function About() {
     <S.Div>
       <h1>Sobre o projeto</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem non iure
-        dicta minus magni assumenda aspernatur debitis, atque explicabo, veniam
-        consequatur perferendis? Esse odit molestiae reprehenderit distinctio
-        nesciunt dolor tempora!
+        Projeto criado para fazer uma lista de pokémons, com dados sobre eles
+        como nome, tipo, imagens e outras coisas. O projeto foi feito usando
+        Next.js e as requições dos dados dos pokémons foram realizadas atráves
+        do uso da API PokeApi.
       </p>
       <Image
         src="/images/charizard.png"

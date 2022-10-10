@@ -8,6 +8,13 @@ export const Nav = styled.nav`
   margin-bottom: 2rem;
   background-color: var(--yellow-color);
   border-bottom: 1px solid var(--red-color);
+
+  h1 {
+    color: var(--red-color);
+  }
+  span {
+    color: var(--blue-color);
+  }
 `;
 
 export const Logo = styled.div`

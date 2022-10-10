@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <S.Footer>
       <p>
-        <span>PokeNext</span> &copy; 2021
+        <span>PokeList</span> &copy; 2022
       </p>
     </S.Footer>
   );

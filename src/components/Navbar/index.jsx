@@ -14,7 +14,9 @@ export const Navbar = () => {
           height="30"
           alt="pokebola"
         />
-        <h1>PokeNext</h1>
+        <h1>
+          Poke<span>List</span>
+        </h1>
       </S.Logo>
 
       <S.LinkItems>
