@@ -11,7 +11,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <link rel="shortcut icon" href="/images/facicon.ico"></link>
-        <title>PokeNext</title>
+        <title>PokeList</title>
       </Head>
       <Navbar />
       <S.MainContainer>{children}</S.MainContainer>
